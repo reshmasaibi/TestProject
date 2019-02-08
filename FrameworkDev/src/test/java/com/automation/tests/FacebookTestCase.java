@@ -1,5 +1,6 @@
 package com.automation.tests;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,9 +15,6 @@ import com.automation.utilities.BrowserFactory;
 
 public class FacebookTestCase extends BaseClass {
 	
-	
-	
-	
 	@Test
 	public void loginTest()
 	{
@@ -25,13 +23,17 @@ public class FacebookTestCase extends BaseClass {
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.loginObjects("8805206304","Sagar5573");
 		
-
-		
-		
-		
-		
 	}
-	
+//	@Test
+//	public void Test1()
+//	{
+//driver.get("http://www.youtube.com");
+//	}
+//	@Test
+//	public void Test2()
+//	{
+//driver.get("http://www.google.com");
+//	}
 	
 	
 
